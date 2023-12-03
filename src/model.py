@@ -29,16 +29,16 @@ def train_model(input_dim, output_dim, activation="leaky_relu", dropout=0.2):
     x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
     x = layers.Dropout(dropout)(x)
 
+    # x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
+    # x = layers.Dropout(dropout)(x)
+
+    # x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
+    # x = layers.Dropout(dropout)(x)
+
+    # x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
+    # x = layers.Dropout(dropout)(x)
+
     x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
-    x = layers.Dropout(dropout)(x)
-
-    # x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
-    # x = layers.Dropout(dropout)(x)
-
-    # x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
-    # x = layers.Dropout(dropout)(x)
-
-    # x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
 
     # Dense layer
     x = layers.Dense(256)(x)
