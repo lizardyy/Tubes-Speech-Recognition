@@ -1,0 +1,1 @@
+ubah  fileids dan transcription ke file ".. copy" ketika semuanya sudah dibuat

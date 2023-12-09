@@ -1,5 +1,4 @@
 junk
-dataset
 src/Models
 src/__pycache__
 tutorial/an4
@@ -8,3 +7,14 @@ pocketsphinx/
 sphinxtrain/
 ~/
 .vscode/
+dataset/*
+tutorial/dataset/Audio/*
+tutorial/dataset/wav/*
+tutorial/dataset/feat/*
+tutorial/dataset/Label/*
+tutorial/dataset/trees/*
+tutorial/dataset/model_parameters/*
+tutorial/dataset/logdir/*
+tutorial/dataset/bwaccumdir/*
+tutorial/dataset/model_architecture/*
+tutorial/dataset/result/*
