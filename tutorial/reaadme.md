@@ -11,7 +11,7 @@ Waktu pre prosess tidak masalah menggunakan Windows
 
 ### Training
 Pada tahap ini disarankan menggunakan WSL
-dapat mengikuti langkah pada link berikut jika memang kurang lengkap [Tutorial Pocketsphinx](https://cmusphinx.github.io/wiki/tutorialam/) 
+dapat mengikuti langkah pada link berikut jika memang kurang lengkap [Tutorial Pocketsphinx](https://cmusphinx.github.io/wiki/tutorialam/), disarankan membuka juga website tutorial agar lebih jelas
 Requirement
 - git
 - cmake (version 3.14 or higher)
@@ -63,3 +63,11 @@ python ../sphinxtrain/scripts/sphinxtrain -t an4 setup
 ```
 python ../sphinxtrain/scripts/sphinxtrain run
 ```
+
+### Predict
+
+Requirement
+- pocketsphinx di python
+Jika berhasil running akan terdapat model yang berhasil dibangun pada folder dataset/etc/model_parameter
+- jalankan main.py untuk live speech
+- jalankan main.ipynb jika ingin mengetest salah satu audio
