@@ -55,11 +55,16 @@ cmake --build pocketsphinx/build
 cp pocketsphinx/build/pocketsphinx_batch sphinxtrain/build
 ```
 
-3. disarankan menggunakan config yang sudah ada, tinggal mengedit sesuai yang diperlukan pada file **etc/sphinx_train.cfg**
+3. disarankan menggunakan config yang sudah ada, tinggal mengedit sesuai yang diperlukan pada file **etc/sphinx_train.cfg**, run di folder tutorial
 ```
-python ../sphinxtrain/scripts/sphinxtrain -t an4 setup
+python ../sphinxtrain/scripts/sphinxtrain -t dataset setup
 ```
-4. untuk melakukan run
+hal pertama yang perlu diubah ketika setup mulai dari awal yaitu
+```
+$CFG_WAVFILE_SRATE 
+```
+
+4. untuk melakukan run, 
 ```
 python ../sphinxtrain/scripts/sphinxtrain run
 ```
