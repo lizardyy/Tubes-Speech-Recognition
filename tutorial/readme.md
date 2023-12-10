@@ -61,7 +61,9 @@ python ../sphinxtrain/scripts/sphinxtrain -t dataset setup
 ```
 hal pertama yang perlu diubah ketika setup mulai dari awal yaitu
 ```
-$CFG_WAVFILE_SRATE 
+$CFG_WAVFILE_SRATE = Sesuaikan dengan audio dataset (44100)
+$DEC_CFG_LANGUAGEMODEL  = "$CFG_BASE_DIR/etc/${CFG_DB_NAME}.lm.bin";
+$CFG_LANGUAGEMODEL  = "$CFG_LIST_DIR/$CFG_DB_NAME.lm.bin";
 ```
 
 4. untuk melakukan run, 
