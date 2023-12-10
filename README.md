@@ -82,3 +82,4 @@ Requirement
 Jika berhasil running akan terdapat model yang berhasil dibangun pada folder dataset/etc/model_parameter
 - jalankan main.py untuk live speech
 - jalankan main.ipynb jika ingin mengetest salah satu audio
+- ubah model, lm, dan dict sesuai dengan yang terdapat pada folder etc / model yang sudah dibangun
