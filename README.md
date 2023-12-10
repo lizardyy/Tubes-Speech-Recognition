@@ -1,7 +1,9 @@
 ## Cara Menjalankan Aplikasi
 1. Gunakan WSL untuk pengalaman yang lebih baik
 2. masuk ke direktori tutorial
+```
 cd tutorial
+```
 
 ### Preparation Dataset
 Waktu pre prosess tidak masalah menggunakan Windows
